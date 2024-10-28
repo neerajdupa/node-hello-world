@@ -1,4 +1,4 @@
-## This will build and publish docker container to docker hub.
+j## This will build and publish docker container to docker hub.
 #
 # TO DO:
 # 1. Set the environment variables DOCKERHUB_USERNAME & DOCKERHUB_PASS
@@ -10,7 +10,7 @@ version: 2.1
 executors:
   docker-publisher:
     environment:
-      IMAGE_NAME: shresthaajay/node-hello-world-spring2024b
+      IMAGE_NAME: neerajdupa/node-hello-world-spring2024b
     docker:
       - image: circleci/buildpack-deps:stretch
 jobs:
